@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>In'fat'uated</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../icon.png" />
+  </head>
+  <body>
+    <a href="../index.html#buffs">Return home</a>
+    <table>
+      <tr>
+        <td>
+          <img src="Infatuated.png" />
+        </td>
+        <td>
+          <h1>In'fat'uated</h1>
+        </td>
+        <td>
+          <p>Infatuated</p>
+        </td>
+      </tr>
+    </table>
+    <h1>In'fat'uated</h1>
+    <p class="rich-text"> Weight gain rate increased by {0}%
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Player.FindBuffIndex(Int32 type) in tModLoader\Terraria\Player.cs:line 3692
+   at WgMod.Content.Buffs.Debuffs.Infatuated.ModifyBuffText(String&amp; buffName, String&amp; tip, Int32&amp; rare) in WgMod/Content/Buffs/Debuffs/Infatuated.cs:line 21
+   at Terraria.ModLoader.BuffLoader.ModifyBuffText(Int32 buff, String&amp; buffName, String&amp; tip, Int32&amp; rare) in tModLoader\Terraria\ModLoader\BuffLoader.cs:line 179
+   at WikiGen.Handlers.BuffHandler.GetBuffText(Int32 buff, String&amp; name, String&amp; tip, Int32&amp; rare) in WikiGen/Handlers/BuffHandler.cs:line 43</p>
+  </body>
+</html>
